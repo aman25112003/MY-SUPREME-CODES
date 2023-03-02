@@ -1,0 +1,269 @@
+#include <iostream>
+using namespace std;
+int main() {
+  // int score;
+  // cout<<"ENTER THE SCORE"<<endl;
+  // cin>>score;
+  // if(score<300)
+  // {
+  //   cout<<"INDIA WINS"<<endl;
+  // }
+  // else
+  // {
+  //   cout<<"PAKISTAN WINS"<<endl;
+  // }
+
+  // int marks;
+  // cout<<"ENTER THE MARKS"<<endl;
+
+  // cin>>marks;
+
+  // if(marks>=90)
+  // {
+  //   cout<<"A"<<endl;
+  // }
+  // else if(marks>=80)
+  // {
+  //   cout<<"B"<<endl;
+  // }
+  // else if(marks>=60)
+  // {
+  //   cout<<"C"<<endl;
+  // }
+  // else if(marks>=40)
+  // {
+  //   cout<<"D"<<endl;
+  // }
+  // else
+  // {
+  //   cout<<"E"<<endl;
+  // }
+
+  // int broNum;
+  // cout<<"ENTER THE NUMBER OF BROTHERS"<<endl;
+  // cin>>broNum;
+  // if(broNum==0)
+  // {
+  //   cout<<"BAAT BANJAAEGI"<<endl;
+  // }
+
+  // else
+  // {
+  //   cout<<"BAAT NAHI BANEGI"<<endl;
+  // }
+
+  // for(int i=0;i<5;i++)
+  //   {
+  //     cout<<"AMAN SINGH"<<endl;
+  //   }
+
+  // for(int i=0;i<5;i++)
+  //   {
+  //     cout<<i<<endl;
+  //   }
+
+  // for(int i=5;i>0;i--)
+  //   {
+  //     cout<<i<<endl;
+  //   }
+
+  // TABLE OF ANY NUMBER
+
+  // int num;
+  // cout<<"ENTER THE NUMBER WHOSE TABLE IS NEEDED"<<endl;
+
+  // cin>>num;
+  // for(int i=1;i<11;i++)
+  //   {
+  //     cout<<num<<"*"<<i<<"="<<num*i<<endl;
+  //   }
+
+  // INTERESTING PROBLEM
+
+  // int n;
+  // if(cin>>n)
+  // {
+  //   cout<<"RONALDO IS THE GOAT"<<endl;
+  // }
+  // else
+  // {
+  //   cout<<"MESSI IS THE GOAT"<<endl;
+  // }
+
+  // ANOTHER INTERESTING PROBLEM
+
+  // if(cout<<"AMAN SINGH ")
+  // {
+  //   cout<<"IS THE BEST"<<endl;
+  // }
+
+  // PATTERNS
+
+  // 1.SOLID RECTANGLE
+  //  *****
+  //  *****
+  //  *****
+
+  // int rows,columns;
+  // cout<<"ENTER THE NUMBER OF ROWS"<<endl;
+  // cin>>rows;
+  // cout<<"ENTER THE NUMBER OF COLUMNS"<<endl;
+  // cin>>columns;
+  //   for(int i=0;i<rows;i++)
+  //     {
+  //       for(int j=0;j<columns;j++)
+  //         {
+  //           cout<<"*";
+  //         }
+  //       cout<<endl;
+  //     }
+
+  // 2.solid square
+  //  ***
+  //  ***
+  //  ***
+
+  // int num;
+  // cout<<"ENTER THE NUMBER OF ROWS/COLUMNS"<<endl;
+  // cin>>num;
+
+  // for(int i=0;i<num;i++)
+  //   {
+  //     for(int j=0;j<num;j++)
+  //       {
+  //         cout<<"*";
+  //       }
+  //     cout<<endl;
+  //   }
+
+  // 3.HOLLOW RECTANGLE
+  //  *****
+  //  *   *
+  //  *****
+
+  // int rows,columns;
+  // cout<<"ENTER THE NUMBER OF ROWS"<<endl;
+  // cin>>rows;
+  // cout<<"ENTER THE NUMBER OF COLUMNS"<<endl;
+  // cin>>columns;
+  // for(int i=0;i<rows;i++)
+  //   {
+  //     for(int j=0;j<columns;j++)
+  //       {
+  //         if(i==0 || i==(rows-1))
+  //         {
+  //           cout<<" * ";
+  //         }
+  //         else if(j==0 || j==(columns-1))
+  //         {
+  //           cout<<" * ";
+  //         }
+  //         else
+  //         {
+  //           cout<<"   ";
+  //         }
+  //       }
+  //     cout<<endl;
+  //   }
+
+  // 4.HALF PYRAMID
+  //  *
+  //  **
+  //  ***
+  //  ****
+  //  *****
+  //  ******
+
+  // int num;
+  // cout<<"ENTER THE NUMBER"<<endl;
+  // cin>>num;
+  // for(int i=0;i<num;i++)
+  //   {
+  //     for(int j=0;j<i+1;j++)
+  //       {
+  //         cout<<"*";
+  //       }
+  //     cout<<endl;
+  //   }
+
+  // 5.INVERTED HALF PYRAMID
+  //  ******
+  //  *****
+  //  ****
+  //  ***
+  //  **
+  //  *
+
+  // int num;
+  // cout << "ENTER THE NUMBER" << endl;
+  // cin >> num;
+  // for (int i = 0; i < num; i++) {
+  //   for (int j = 0; j < num-i; j++) {
+  //     cout << "*";
+  //   }
+  //   cout << endl;
+  // }
+
+
+  
+
+
+
+
+
+// 6.NUMERIC HALF PYRAMID
+  // 1
+  // 12
+  // 123
+  // 1234
+  // 12345
+
+
+  // int num;
+  // int count;
+  // cout<<"ENTER THE NUMBER"<<endl;
+  // cin>>num;
+  // for(int i=0;i<num;i++)
+  //   {
+  //     count=1;
+  //       for(int j=0;j<i+1;j++)
+  //         {
+  //           cout<<count;
+  //           count++;
+  //         }
+  //     cout<<endl;
+      
+  //   }
+
+
+
+
+
+
+
+  // 7.NUMERIC INVERTED HALF PYRAMID
+
+  
+  // 12345
+  // 1234
+  // 123
+  // 12
+  // 1
+
+
+
+  // int num;
+  // cout<<"ENTER THE NUMBER"<<endl;
+  // cin>>num;
+
+  // for(int i=0;i<num;i++)
+  //   {
+
+  //     for(int j=0;j<num-i;j++)
+  //       {
+  //         cout<<j+1;
+  //       }
+  //     cout<<endl;
+  //   }
+  return 0;
+}
