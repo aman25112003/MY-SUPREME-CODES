@@ -1,0 +1,119 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+    //SOLID SQUARE PATTERN
+
+  // int num;
+  // cout<<"ENTER THE NUMBER"<<endl;
+  // cin>>num;
+
+  // for(int i=0;i<num;i++)
+  //   {
+  //     for(int j=0;j<num;j++)
+  //       {
+  //         cout<<"*";
+  //       }
+  //     cout<<endl;
+  //   }
+
+
+
+  //HOLLOW SQUARE PATTERN
+
+  // int num;
+  // cout<<"ENTER THE NUMBER"<<endl;
+  // cin>>num;
+
+  // for(int i=0;i<num;i++)
+  //   {
+  //     for(int j=0;j<num;j++)
+  //       {
+  //         if(i==0 || i==(num-1))
+  //         {
+  //           cout<<" * ";
+  //         }
+  //         else if(j==0 || j==(num-1))
+  //         {
+  //           cout<<" * ";
+  //         }
+
+  //         else
+  //         {
+  //           cout<<"   ";
+  //         }
+  //       }
+  //     cout<<endl;
+  //   }
+
+
+
+
+  //HOLLOW INVERTED HALF PYRAMID
+
+  // int num;
+  // cout<<"ENTER THE NUMBER"<<endl;
+  // cin>>num;
+
+  // for(int i=0;i<num;i++)
+  //   {
+  //     for(int j=0;j<num;j++)
+  //       {
+  //         if(i==0 || j==0)
+  //         {
+  //           cout<<"*";
+  //         }
+  //         else if(j==(num-i-1))
+  //         {
+  //           cout<<"*";
+  //         }
+
+  //         else
+  //         {
+  //           cout<<" ";
+  //         }
+  //       }
+  //     cout<<endl;
+  //   }
+
+
+
+
+  //HOLLOW FULL PYRAMID
+
+  // int num;
+  // cout<<"ENTER THE NUMBER"<<endl;
+  // cin>>num;
+  // for(int i=0;i<num;i++)
+  //   {
+  //     int k=0;
+  //     for(int j=0;j<((2*num)-1);j++)
+  //       {
+  //           if(j<(num-i-1))
+  //           {
+  //             cout<<" ";
+  //           }
+  //         else if(k<2*i+1)
+  //         {
+  //           if(k==0 || k==2*i || i==num-1)
+  //           {
+  //             cout<<"*";
+              
+  //           }
+  //           else
+  //           {
+  //             cout<<" ";
+  //           }
+  //           k++;
+  //         }
+
+  //         else
+  //         {
+  //           cout<<" ";
+  //         }
+  //       }
+  //     cout<<endl;
+  //   }
+return 0;
+  
+}
